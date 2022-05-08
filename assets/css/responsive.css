@@ -1,0 +1,46 @@
+@media all and ( max-width: 991px){
+    .logo {
+        padding: 60px 0px;
+    }
+
+    .coming-soon h1 {
+        margin-bottom: 4px;
+    }
+
+    .Button {
+        padding: 25px 0px;
+    }
+}
+
+
+@media all and ( max-width: 767px){
+    .Days-wrapper {
+        margin-right: 27px;
+    }
+}
+
+
+@media all and ( max-width: 576px){
+    .logo {
+        padding-top: 50px;
+        padding-bottom: 26px;
+    }
+
+    .coming-soon h1 {
+        font-size: 27px;
+        padding-top: 30px;
+    }
+    
+    .Days-wrapper {
+        margin-right: 27px;
+    }
+    
+    .counter li span {
+        font-size: 2.5rem;
+    }
+
+    .counter li {
+        padding: 0em;
+        margin: 14px 14px 14px 13px;
+    }
+}

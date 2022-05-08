@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+/******************************/
+/********* HEADER CSS  *******/
+/****************************/ 
+
+
+
+
+/******************************/
+/********* MAIN CSS  *******/
+/****************************/ 
+.dicover-carousel-area{
+    position: absolute;
+    z-index: -1;
+    display: block;
+    cursor: pointer;
+    transition: all 0.8s ease-in-out;
+    transition-delay: 0.1s;
+}
+
+
+.logo{
+    padding: 80px 0px;
+    text-align: center;
+}
+
+/* Coming soon start */
+.coming-soon h1 {
+    font-size: 47px;
+    letter-spacing: 4px;
+    line-height: 1.5;
+    margin-left: 4px;
+    margin-bottom: 15px;
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Countdown Days */
+.counter li {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0em 1em;
+    text-transform: uppercase;
+    align-items: center;
+    margin: 0px 18px;
+    color: rgb(255, 255, 255);
+}
+  
+  
+.counter li span {
+    display: block;
+    font-size: 3.5rem;
+    margin: auto;
+    font-weight: 700;
+}
+  
+.Days-wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: wrap;
+    background: transparent;
+    
+}
+
+/* Button Start */
+.Button{
+    padding: 35px 0px;
+    text-align: center;
+}
+
+.more-info{
+    text-align: center;
+    margin-top: 15px;
+    margin-right: 12px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
+    box-shadow: none;
+    text-transform: uppercase;
+    outline: none;
+    border: 1px solid;
+    border-color: #f1f1f1;
+    color: #f1f1f1;
+    border-radius: 45px;
+    background-color: transparent;
+    padding: 12px 35px;
+    min-width: 180px;
+    margin-bottom: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.more-info:hover{
+    background-color: #f11e47;
+    border-color: #f11e47;
+}
+
+.subcribe{
+    text-align: center;
+    margin-top: 15px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
+    box-shadow: none;
+    outline: none;
+    text-transform: uppercase;
+    border: 1px solid;
+    border-color: #f11e47;
+    color: #f1f1f1;
+    border-radius: 45px;
+    background-color: #f11e47;
+    padding: 12px 35px;
+    min-width: 180px;
+    margin-bottom: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.subcribe:hover{
+    background-color: transparent;
+    border-color: #f1f1f1;
+}
+
+
+/* Social Icon Start */
+
+.social-links{
+    text-align: right;
+}
+
+.social-links a {
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    line-height: 1;
+    padding: 12px 0;
+    margin-right: 18px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+    border: 1px solid white;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+
+.facebook:hover{
+    background-color: #3b5998;
+    border-color: #3b5998;
+    color: #fff;
+}
+
+.twitter:hover{
+    background-color: #00acee;
+    border-color: #00acee;
+    color: #fff;
+}
+
+.google-plus:hover{
+    background-color: #f11e47;
+    border-color: #f11e47;
+    color: #fff;
+}
+
+.linkedin:hover{
+    background-color: #0a58ca;
+    border-color: #0a58ca;
+    color: #fff;
+}
+
+.pinterest:hover{
+    background-color: #bd081c;
+    border-color: #bd081c;
+    color: #fff;
+}
+
+/* copyright start */
+
+.copyright {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-top: 56px;
+}
+
+.fa-solid{
+    font-size: 13px;
+}
+
+.rounded-border {
+    border: 1px solid #fff;
+    padding: 3px 5px;
+    border-radius: 50%;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+a:hover{
+    color: rgb(241 30 71);
+}
+
+
+
+
+
+/******************************/
+/********* FOOTER CSS  *******/
+/****************************/ 
